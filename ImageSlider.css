@@ -1,0 +1,65 @@
+
+.container{
+    width: 60%;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.container>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.slide__button-left{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 10%;
+    top: 250px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.slide__button-right{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 10%;
+    top: 250px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 870px;
+}
+.slide__button-left:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.slide__button-right:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.slide-controls{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10%;
+    top: 465px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-left: 450px;
+    opacity: 0.6;
+}
+.slide-controls:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
